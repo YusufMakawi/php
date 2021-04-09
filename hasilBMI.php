@@ -19,7 +19,7 @@ class bmiPasien {
              return "<td>Kekurangan Berat Badan</td>";
          }
          else if ($BMI >= 18.5 && $BMI <= 24.9) {
-             return "<td>Normal (ideal)</td>";
+             return "<td>Normal (Ideal)</td>";
          }
          else if ($BMI >= 25.0 && $BMI <= 29.9) {
              return "<td>Kelebihan Berat Badan</td>";
@@ -50,7 +50,7 @@ $ar_pasien = [$pasien1];
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-    <title>OUTPUT</title>
+    <title>HASIL BMI</title>
 </head>
 <body>
     <div class="container">
