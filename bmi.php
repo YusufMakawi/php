@@ -3,26 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Output form</title>
+    <title>FORM ISIAN BMI</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     
 </head>
 <body>
-        <form class="form-horizontal p-5 shadow h-100" style="background-color:#f1f2f6;" method="GET" action="hasil.php">
+        <form class="form-horizontal p-5 shadow h-100" style="background-color:#FFD700;" method="GET" action="hasil.php">
             <div class="text-center">
-              <h3 class="mb-5 text-success text-mg">FORM ISIAN INDEXS MASSA TUBUH (BMI)</h3>
+              <h2 class="mb-5 text-success text-mg" >FORM ISIAN INDEXS MASSA TUBUH (BMI)</h2>
             </div>
             <!------------>
               <div class="form-group row">
-                <label for="namalengkap" class="col-sm-4 col-form-label"><b>Nama Lengkap</b></label>
-                <div class="col-sm-8">
+                <label for="namalengkap" class="col-sm-2 col-form-label"><b>Nama Lengkap:</b></label>
+                <div class="col-sm-6">
                   <input type="text" class="form-control" name="nama__lengkap" required>
                 </div>
               </div>
               <br>
             <!------------>
               <div class="form-group row">
-                <label for="namalengkap" class="col-sm-4 col-form-label"><b>Berat Badan:</b></label>
+                <label for="namalengkap" class="col-sm-2 col-form-label"><b>Berat Badan:</b></label>
                 <div class="col-sm-6">
                   <div class="input-group mb-2 mr-sm-2">
                     <input type="text" class="form-control" name="berat__" required>
@@ -35,7 +35,7 @@
               <br>
             <!------------>
               <div class="form-group row">
-                <label for="namalengkap" class="col-sm-4 col-form-label"><b>Tinggi Badan</b></label>
+                <label for="namalengkap" class="col-sm-2 col-form-label"><b>Tinggi Badan</b></label>
                 <div class="col-sm-6">
                   <div class="input-group mb-2 mr-sm-2">
                     <input type="text" class="form-control" name="tinggi__" required>
@@ -48,7 +48,7 @@
               <br>
             <!------------>
             <div class="form-group row">
-                <label for="namalengkap" class="col-sm-4 col-form-label"><b>Umur</b></label>
+                <label for="namalengkap" class="col-sm-2 col-form-label"><b>Umur</b></label>
                 <div class="col-sm-6">
                   <div class="input-group mb-2 mr-sm-2">
                     <input type="text" class="form-control" name="umur__" required>
@@ -61,7 +61,7 @@
               <br>
             <!------------>
             <div class="row">
-              <legend class="col-form-label col-sm-4 pt-0"><b>Jenis Kelamin</b></legend>
+              <legend class="col-form-label col-sm-2 pt-0"><b>Jenis Kelamin</b></legend>
               <div class="col-sm-8">
                 <div class="form-check mr-auto">
                   <input class="form-check-input" type="radio" id="laki" name="jenis__kelamin" value="Laki-Laki" required>
@@ -78,7 +78,7 @@
             <br>
             <!------------>
               <div class="text-center">
-                <input class="btn btn-primary" type="submit" value="Simpan Data" name="proses"/>
+                <input class="btn btn-success btn-lg" type="submit" value="Simpan Data" name="proses"/>
               </div>
           </form>
           <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
